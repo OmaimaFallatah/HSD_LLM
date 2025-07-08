@@ -1,0 +1,61 @@
+tweet,label,predicted,model,error_type,notes
+قال لي احد السوريين اللاجئين بكندا ابناءنا يأخذوهم من مكان لجؤنا يوميا لينصروهم ويعلموهم النصرانيه,not,offensive,gpt4o_few_shot,False Positive,Named Entity confusion
+البيئة هذه التي استقدمت المترجمين الكفار واحتفت بهم ونشرت علومهم واستفادت منها هي الحضارة الإسلامية واستفاد كل المسلمين من علوم الفلسفة والمنطق وتفرد الحنابلة السلفية بذم هذه العلوم,offensive,not,gpt4o_few_shot,False Negative,Implicit hate
+لانه جاحد ياخذ مايعطي والوفاء صفر اذا اشتهى جا طقطق ومشي من غير حمله للفطريات الي مالها حل ومن غير خرمشته باظافيره ومن غير البخبخه وقت التزاوج كائن امصاري بحت,not,offensive,gpt4o_few_shot,False Positive,Named Entity confusion
+السلام على فاطمة البتول وبضعة الرسول ص ولعن الله من ظلمها ولطمها وكسر ظلعها واسقط جنينها لعنة بلدنيا وخزي وعداب بلاخره,not,offensive,gpt4o_few_shot,False Positive,Named Entity confusion
+برنامج فاشل ويرفع الضغط وكله عاهات نفسيه ومشاكل بدون حل وش نستفيد منه ؟؟,offensive,not,gpt4o_few_shot,False Negative,Implicit hate
+هما مبيشوفوش الكلام ده لانهم تقريبا مش بيتفرجوا الا على القنوات الفاشله واى قناه غيرهم خاصا لو مصريه يقولوا كلامها كدب,offensive,not,gpt4o_few_shot,False Negative,Implicit hate
+اكتساب جمهور عريض بإسم الدين شيء سهل فالمسلمون عاطفيون بطبعهم,not,offensive,gpt4o_few_shot,False Positive,Implicit hate
+يوني بن مناحيم تصفية الفلسطينيين ال5 ربما يؤدي إلى إطلاق صواريخ ثقيلة نحو المستوطنات,offensive,not,gpt4o_few_shot,False Negative,Implicit hate
+اللهم احفظه من كيدهم واجعله سداً منيعا امام كل من أراد تغيير قيم هذا البلد وتغريبه,offensive,not,gpt4o_few_shot,False Negative,Label noise
+جزى الله خيرا من انشأه لايحاربه الا سفيه او عدوا للوطن,offensive,not,gpt4o_few_shot,False Negative,Dialect ambiguity
+انا من أهل الحجاز لم اسمع بهذه العادة من قبل من أين تاتون بها ربما في الحوجاز تقصدين,offensive,not,gpt4o_few_shot,False Negative,Implicit hate
+وش معنى زهراني ليش ماهو واحد وخلاص,not,offensive,gpt4o_few_shot,False Positive,Dialect ambiguity
+اعلمك وش سويت في الشيعه كنت اتل علي أعقابكم الويل الويل من يلقي علي بن ابي طالب يوم الحساب انتم كافرين به ليه ما تحبون علي بن ابي طالب انزل من القران ماهو الشفاء ورحمة المؤمنين وما يزيد لظالمين الا خسارا كنت أقول الشيوخ رسولهم بل هم منكرون الشيعه إذا ظهرت متاكد مائه في مائه سلمون,not,offensive,gpt4o_few_shot,False Positive,Named Entity confusion
+والله انا مو كاسر خاطري الا عائلة البنت فقط كان الله في عونهم ، ورسالتي لـ البنت رهف سوّدتي وجه عائلتج مره فـ لاتسودينه أكثر من مره ، على الأقل كوني بنت محترمة في هجرتج وكوني بنت صالحة في كندا ، بإمكانج تغيير نظرة المجتمع لج ولأهلج للأفضل ، والله يستر علينا وعليج,not,offensive,gpt4o_few_shot,False Positive,Label noise
+لنا في تجربة المستثمر ال اجنبي حكايات وبلاوي يجب ع المسئولين ان لاتكون ال اقامه المميزه نسخة من تجربة المستثمر هل تذكرون مستثمر مطعم ومستثمر سباكه ومستثمر مقاولات نريد مستثمرين مصانع ومصدرين وموردين لا نريد بياعين ابو ريالين وبوفيات ومغاسل وعبايات,offensive,not,gpt4o_few_shot,False Negative,Sarcasm
+النسويات مشكلتهم مشكله فاهمين الهروب الحل الوحيد و بتحل مشاكلهم وهي في النهايه بتكون ذليله عند الغرب واذا ناقشتهم وحست انهاماعادعرفت تردتصيركنك رايح سوق العمال اذاكلمت واحد تجمعوعليك عشره,not,offensive,llama_3shot,False Positive,Label noise
+باقي يتكلمون على الحلاوة الحلقوم من التقليد الحجازية العصمليه يحلون مع قهوة اللوز وكلها حجازية بالغصب والعفرته والاعلام منبطح لهم في كل شي,offensive,not,llama_3shot,False Negative,Implicit hate
+أنا الحين والله نيتساينسمسمس كلهم اجانب والعرب طايحين على جايبيلغش,not,offensive,llama_3shot,False Positive,Label noise
+القصيم فيها كل شئ ههههه تعال لها وشف الخرا,offensive,not,llama_3shot,False Negative,Implicit hate
+ممكن ترجمة ما فهمت اصبح كوهين اعرف مني بلهحة اهل نجد,not,offensive,llama_3shot,False Positive,Sarcasm
+مايرتكي للحمل ياكودشغموم يشيل متنه ماتشيله قبيله حراً إليامنه شلع يكسرالحوم من طيب كفه مايصيد الهزيله يحسب حسابه داني الربع والقوم عالي مقام ومرقبه بالطويله لاجيت له طيرالسعد وانت مهموم ولالك مع اللي جيت لجله وسيله يشيل عنك الهم لوكان بالكوم مايعتذر عسى حياته طويله الهاب بدر,not,offensive,llama_3shot,False Positive,Dialect ambiguity
+دعواتكم لاخوانكم قوات المقاومه الجنوبيه في هذه الأثناء تتطهر زنجبار من فلول الخونه والارهاب ابين تنتصر لاهلها والجنوب ابين تتنفس الصعداء,offensive,not,llama_3shot,False Negative,Dialect ambiguity
+الفرق بين الثورة السورية والمعارضة مثل الفرق بين داعش والإسلام,offensive,not,llama_3shot,False Negative,Dialect ambiguity
+مع ايقافها بشددده ماعاد اجلس مع اخواني وخواتي نفس اول مدمنين عليها بشكل فضيع,not,offensive,llama_3shot,False Positive,Topic Bias
+أولاً أعتذر لقلبي لتحمله كل تلك المشاعر المؤلمة ثانياً اللّعنه على كل من كان متسبب بتلك المشاعر,not,offensive,llama_3shot,False Positive,Named Entity confusion
+جزاك الله خير نيزك,offensive,not,llama_3shot,False Negative,Named Entity confusion
+الجزء الاول واحد جايب ولد بالحرام ، والثاني مشبّك زوجة جاره ، والحين يقولون لا تشوهون سمعة العايلة,not,offensive,llama_3shot,False Positive,Label noise
+للعلم ترا في الكويت مشغولين بتجهيز الشنط استعدادا ل الى چطر وتركيا,offensive,not,llama_3shot,False Negative,Implicit hate
+ماهو سهل ان طحت من عين مطيري ترى مايملي عيون المطران حي الله,not,offensive,llama_3shot,False Positive,Topic Bias
+انه رفع صوته نقول اسلوبه كذا انه قفل الباب بقوه نقول ضغط عمل اما انه يناديها كانها جاريه عنده ويخليها تدخل مكسورة عين قدام كل ألي بالستشفى وانه يطقها على رأسها مع دخلتها اكيد الوضع عادي ولا وش خلاه يتجرا بغض النظر عن جنسيته و اصله,not,offensive,llama_3shot,False Positive,Topic Bias
+كلامي واضح والواقع اوضح وتعليقاتي موجودة ولساني مدرك مايقولذلحين ع اساس انكم بتقاتلوا الدحابشة والاصلاح صح يعني مش المعركة ع ارض جنوبيه بين جنوبي وجنوبيكذه كانو يقولو الحوثي جا يحارب حكومة الفساد والاخوان وبعدها اريقت دماء الشمال والجنوبوانتم حاربو حكومة الفساد والاخوان,offensive,not,allam_three_shot,False Negative,Implicit hate
+اللهم ياحي ياقيوم ياقوي ياعزيز كل من استهدف الصالحين وأهل الخير بالأذى والتأليب ضدهم والإضرار بهم فاشغله بنفسه واجعل تدبيره في تدميره واحرمه عافيتك التي استعملها في محاربة اوليائك,offensive,not,allam_three_shot,False Negative,Dialect ambiguity
+مثال على بتر وتدليس وكذب الحدادي خالد عثمان مقالة تَهَكم بها أحد الأخس من الحدادية على السلفيين فنسبها خالد الكذاب المتلون في مقاله الأبتر إلى من وصفهم بالغلاة في العلامة ربيع LINK,offensive,not,allam_three_shot,False Negative,Implicit hate
+لما ادش اسرق شي من غرفه اخواني وهم نايمين,not,offensive,allam_three_shot,False Positive,Sarcasm
+معظم التجار يديرون تجارتهم بالعقل وليس العاطفة يبحثون عن الأرباح ولا تهمهم العواطف نادر أن تجد تاجر تحرّكه إنسانيته وهذا الأمر ليس محصورا في الكويت وليس أمرا جديدا لو تنظر لتاريخ اليهود بحثا عن سبب كراهية معظم البشر لهم، ستجد أن السبب يعود لجشعهم الطاغي للمادة فكانوا,offensive,not,allam_three_shot,False Negative,Implicit hate
+واذا خاصم فجر جهلاءمرتع للعنصريهاخونج هدئ من روعككل هذا لمجرد انهم اختلفوا معكم باراي كلام مستهلك يدلل على ضحالة الفكر وضعف الطرح والحجه تسعدني تغريداتكم انت و فعلا تؤكد لنا اننا سائرون على الطريق الوطني السليم فتحية اجلال واكبار ل,not,offensive,allam_three_shot,False Positive,Label noise
+وعليكم السلام ياجيزانيه جــيزان عسير نجــــــران اراضي يمنيــــــــه,not,offensive,allam_three_shot,False Positive,Label noise
+للعلم ترا في الكويت مشغولين بتجهيز الشنط استعدادا ل الى چطر وتركيا,offensive,not,allam_three_shot,False Negative,Implicit hate
+اثنين لا تصدقهم المصري إذا قالك الفلوس ما تهمنيش ، والبنت إذا قالت لا بس اسأل,offensive,not,allam_three_shot,False Negative,Implicit hate
+دغدغة المشششاعر LINK,not,offensive,allam_three_shot,False Positive,Dialect ambiguity
+كلما فضح نيزك أشخاص أو حسابات حاولوا زعزعة ثقتنا فيه نيزك سعودي وطني فيه غيرة ع محارم الله، مهما حاولتم تشويه سمعته فلن تحدوا إلا حجراً نلقمه في حلوقكم استمر في فضح المتردية والنطيحة,offensive,not,allam_three_shot,False Negative,Dialect ambiguity
+الكفار يريدون اسقاط الولاية على المرأة ليفسد المجتمع العلامة الفقيه صالح الفوزان حفظه الله youtube70tVAdN0XVo,offensive,not,allam_three_shot,False Negative,Dialect ambiguity
+الحجاز اغلب سكانه ليسو عرب اصلا وهو خليط من شوام ومغاربة وافارقة واكراد ونجد كذلك مافيها احد وكلهم جايين من اليمن اصلا ال سعود وافدين على ديار نجد,not,offensive,allam_three_shot,False Positive,Named Entity confusion
+صياح الحقوقيات طرب,offensive,not,allam_three_shot,False Negative,Dialect ambiguity
+منافسة حتي في دين الله ٠٠اختلق اليهود التلمود بدل التوراه واختلق المسلمون التراث بدل القران لتأكيد الاثر النبوي المنسوب للرسولحدثوا عن بني اسرائيل ولا حرجرفع الحرج وتتابع الحديث واصبح كعب الاحبار قدوه,not,offensive,allam_three_shot,False Positive,Topic Bias
+والله ماعرفت حساب نيزك الا من التاق وش السالفه ي الربع فهمونا عشان نعرف من وين نهاجم,not,offensive,gemma_3shot,False Positive,Named Entity confusion
+الجروي كلاله من اسمه نصيب فاعندنا الجرو يسمئ صغيرالكلب حقيقه بالنسبه للبناء فقد افضا الئ ماقدم بس عمل اليهود المتئسلمين هوايقاض الفتن والنزاعات والتغذي عليها فالطفيلتات لاتعيش في المياه النقيه انمافي المستنقعات وهذه والله حقيقة بعض البشريحاولودس انفوسهم ولوباكذب والنفاق لايهم عو,not,offensive,gemma_3shot,False Positive,Topic Bias
+البدويه أول ما تتعرف عليها تسألك عن أصلك عكس الحضريه أول ما تتعرف عليها تسألك عن برجك,not,offensive,gemma_3shot,False Positive,Named Entity confusion
+انا اصلا ما بحبهمش من زمان مع ان فيه واحد سوري كبير ف السن شغال ميكانيكي معانا ف السعوديه بس شفت فيه وساخه ما شفتهاش من الجمس اساسا والعجيب بقا ان بنته وجوزها كانوا ف السودان بيعيطو جم مصر من سنه ونص ساكنين ف الرحاب اللي انا وانتي وغيرنا بنحلم نسكن فيها اساسا من سنه ونص بس,offensive,not,gemma_3shot,False Negative,Implicit hate
+650ص تحرير نقاط النخبة الشبوانية بميفعة من قبل افراد المقاومة الجنوبية بما فيها محورعزان وطرد قوات الشرعدوانية LINK,not,offensive,gemma_3shot,False Positive,Named Entity confusion
+من آل النسب هُود النبي ستر وغطاه,not,offensive,gemma_3shot,False Positive,Named Entity confusion
+الحين مافي العاب الا حقت الارهاب العسكري يقتل الحارص والاخو يقتل اخته والتحريض وهكذا,not,offensive,gemma_3shot,False Positive,Topic Bias
+ستنتهي بطاله وتعطيل وظائف النساء وستسقط الولاية المشئومه على أكثر النساء,not,offensive,gemma_3shot,False Positive,Topic Bias
+يا ريت لو حدا بيوفقوا على القرار لأنو ما في غيروا بدو يرد على اسرائيل,not,offensive,gemma_3shot,False Positive,Dialect ambiguity
+ليس كل من يعمل تحت الشمس على صواباً هذا اولاً وسم خالطه لغطٌ وهرجٌ ومرجٌ من كل الأطراف ومن اناس كنا نعتقدهم لن ينجرفو نحو وحل العنصرية انجرفو عرّف الآخرين بما تملكه من تراث من دون تعدّي العنصرية تفشّت في كل المكونات كلاً يلمز ويغمز في الآخر للاسف,not,offensive,gemma_3shot,False Positive,Named Entity confusion
+في الحديث لعن الله الواشمات والمستوشمات والنامصات والمتنمصات والمتفلجات للحسن المغيرات خلق الله رواه البخاري ومسلم,not,offensive,gemma_3shot,False Positive,Dialect ambiguity
+القصيم فيها كل شئ ههههه تعال لها وشف الخرا,offensive,not,gemma_3shot,False Negative,Implicit hate
+يآ جمـآعهہ آحد يدلني ع مـگآن آلصـفر آللي بدو مـنو آثريآء آلعآلمـ,not,offensive,gemma_3shot,False Positive,Sarcasm
+الحقيقة يابو عبدالوهاب اني استغرب التحول اللي صار للاعلام الاتحادي ضد النصر فعلاً شيء غريبوكأنهم مكبوتين وفجأة نثروا حقدهم وكرههم على النصر,offensive,not,gemma_3shot,False Negative,Dialect ambiguity
+مالهم حل الليبراليين,not,offensive,gemma_3shot,False Positive,Sarcasm
